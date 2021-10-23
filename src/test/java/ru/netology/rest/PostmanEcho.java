@@ -16,7 +16,7 @@ public class PostmanEcho {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
+                .statusCode(201)
                 .body("data", equalTo("first test"));
     }
 
@@ -30,7 +30,7 @@ public class PostmanEcho {
                 .when()
                 .post("/post")
                 .then()
-                .statusCode(200)
+                .statusCode(201)
                 .body("data", equalTo("second test"))
                 .contentType(ContentType.JSON);
     }
