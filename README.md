@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/2x102gmai1pi79jk?svg=true)](https://ci.appveyor.com/project/Zumaletto/hw2-2)
